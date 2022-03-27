@@ -1,0 +1,83 @@
+.root {
+	-fx-background-image: url("background.jpg");
+}
+
+.button {
+	-fx-font-family: "Cousine","Roboto Mono Regular" ,Cousine, monospace;
+	-fx-font-size:16.0;
+	-fx-background-radius: 15;
+}
+
+.button:hover {
+	-fx-background-color: rgb(167, 207, 180);
+}
+
+.combo-box {
+	-fx-font-family: "Cousine","Roboto Mono Regular" ,Cousine, monospace;
+	-fx-font-size: 20.0;
+	-fx-background-radius: 15;
+}
+
+.text-field {
+	-fx-font-family:  "Cousine","Roboto Mono Regular" ,Cousine, monospace;
+	-fx-font-size: 16.0;
+	-fx-border-color: rgb(167, 207, 180); 
+	-fx-border-width: 2px ;
+}
+
+.combo-box-popup .list-view .list-cell:hover {
+   	-fx-background-color: rgb(167, 207, 180);
+	-fx-text-fill: black;
+}
+
+
+.label {
+	-fx-font-family:  "Cousine","Roboto Mono Regular" ,Cousine, monospace;
+	-fx-background-radius : 10;
+}
+
+
+#startButton {
+	-fx-font-size: 36.0;
+}
+
+#hintLabel {
+	-fx-background-color: rgb(167, 207, 180); 
+	-fx-text-fill: black;
+	-fx-font-size: 20.0;
+}
+
+#messageLabel {
+	-fx-text-aligment: center;
+}
+#englishLabel {
+	-fx-text-aligment: center;
+}
+#completeLabel {
+	-fx-background-color: rgb(167, 207, 180); 
+	-fx-border-color: black;
+	-fx-border-width: 4px;
+}
+
+#scoreLabel {
+	-fx-background-color: rgb(167, 207, 180); 
+	-fx-border-color: black;
+	-fx-border-width: 4px;
+}
+
+#currentScore {
+	-fx-background-color: rgb(167, 207, 180); 
+}
+
+#titleLabel {
+	-fx-background-color: rgb(167, 207, 180); 
+}
+
+#topicLabel {
+	-fx-background-color: rgb(167, 207, 180); 
+}
+
+#voiceSpeed{
+		-fx-background-color: rgb(167, 207, 180); 
+}
+
